@@ -22,4 +22,8 @@ captions = [
     "less notifications more presence",
     "running at 6am beats social media",
 ]
-print("helloaish")
+
+
+
+print("Hello Aish!!")
+
