@@ -2,8 +2,16 @@
 import pandas as pd
 import random
 random.seed(42)
-categories=["dopamine_detox","minimalism","fitness","slow_living","burnout_recovery"]
-captions=["deleted all my apps,feeling free",
+categories = [
+    "dopamine_detox",
+    "minimalism",
+    "fitness",
+    "slow_living",
+    "burnout_recovery"
+]
+captions = [
+    "deleted all my apps, feeling free",
+
     "minimalist morning routine no phone",
     "30 day dopamine detox challenge day 1",
     "slow morning coffee no screens",
@@ -14,4 +22,4 @@ captions=["deleted all my apps,feeling free",
     "less notifications more presence",
     "running at 6am beats social media",
 ]
-print("hello world")
+print("helloaish")
