@@ -23,7 +23,17 @@ captions = [
     "running at 6am beats social media",
 ]
 
+data={
+"post_id": range(1,201),"caption":[random.choice(captions) for _ in range(200)],
+"category":[random.choice(categories) for_ in range(200)],
+"likes": [random.randint(10,5000) for _ in range(200)],
+"comments": [random.randint(1,300) for _ in range(200)],
+"shares": [random.randint(0,150) for _ in range(200)],
+"engagement_score":[random.uniform(0.1,9.9) for_ in range(200)],
+"days":list(range(1,201))
 
-
-print("Hello Aish!!")
+}
+df=pd.DataFrame(data)
+df.to_csv("data/sample_posts.csv",index=False)
+print("dataset created succesfully")
 
